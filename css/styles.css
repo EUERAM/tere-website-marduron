@@ -200,6 +200,25 @@ header a{
     display:grid;
     grid-template-columns: repeat(3, 1fr);
     gap:40px;
+	margin-top: 65px;
+}
+
+.how-it-works .step-number{
+	width: 62px;
+	height: 62px;
+	background-image: url("../img/step.png");
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.step-number{
+color: #75BF7A;
+text-align: center;
+font-family: Inter;
+font-size: 34.108px;
+font-style: normal;
+font-weight: 800;
+line-height: 37.019px; /* 108.537% */
 }
 
 /* Link CTA */
@@ -271,14 +290,14 @@ header button {
 
 /* Make CTA button same height as input */
 .link .cta-controls button{
-	height: 44px;
-	padding: 0 16px;
-	display: inline-flex;
-	align-items: center;
-	justify-content: center;
-	line-height: normal;
-	/* make button longer and dark background */
-	min-width: 180px;
-	background: var(--dark-gray);
-	color: var(--white);
+    height: 67px;
+    padding: 0 16px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    line-height: normal;
+    /* make button longer and dark background */
+    width: 260px;
+    background: var(--dark-gray);
+    color: var(--white);
 }
